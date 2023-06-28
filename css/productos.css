@@ -58,6 +58,14 @@ nav a{
     border: #c78c19 solid 2px;
 }
 
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
 .productos h2{
     font-size: 30px;
     text-align: center;
@@ -74,3 +82,7 @@ nav a{
     margin-top: 10px;
 }
 
+footer{
+    text-align: center;
+    background: url(/img/bg.jpg);
+}
